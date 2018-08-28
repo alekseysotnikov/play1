@@ -1,4 +1,4 @@
-# play1
-Play framework 1.x.x docker [images](https://hub.docker.com/r/asotnikov100/play/)
+# Play Framework 1.x.x Docker images
+[![Build Status](https://img.shields.io/docker/automated/asotnikov100/play.svg)](https://hub.docker.com/r/asotnikov100/play/)
 
-`docker pull asotnikov100/play:1.4.4`
+More information on [Docker hub](https://hub.docker.com/r/asotnikov100/play/)

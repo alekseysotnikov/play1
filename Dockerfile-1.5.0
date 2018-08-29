@@ -1,0 +1,8 @@
+FROM openjdk:8
+ARG v=1.5.0
+RUN curl https://downloads.typesafe.com/play/$v/play-$v.zip --output play.zip \
+    && unzip play.zip -d / \
+    && rm play.zip \
+    && mv play-$v play \
+    && chmod a+x /play/play
+ENV PATH $PATH:/play

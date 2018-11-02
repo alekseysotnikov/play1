@@ -12,4 +12,5 @@ RUN curl https://downloads.typesafe.com/play/$v/play-$v.zip --output play.zip \
     && curl http://mirror.linux-ia64.org/apache//ant/binaries/apache-ant-1.10.5-bin.zip --output ant.zip \
     && unzip ant.zip \
     && rm ant.zip \
+    && mv apache-ant-1.10.5 ant \
     && ant -version
